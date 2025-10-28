@@ -118,4 +118,25 @@ toggleMode.addEventListener("change", (e) => {
         section.style.color = "black"
         section.style.border = "3px solid black"
     }
+
 })
+
+
+// toggleMode.addEventListener("change", (e) => {
+//     e.preventDefault()
+
+//     if(e.target.checked) {
+//         body.classList.add("dark-mode")
+//         body.classList.remove("light-mode")
+//         section.style.backgroundColor = "black"
+//         section.style.color = "white"
+//         section.style.border = "3px solid white"
+//     } else {
+//         body.classList.add("light-mode")
+//         body.classList.remove("dark-mode")
+//         section.style.backgroundColor = "white"
+//         section.style.color = "black"
+//         section.style.border = "3px solid black"
+//     }
+
+// })
